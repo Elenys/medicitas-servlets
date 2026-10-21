@@ -1,0 +1,14 @@
+✓ GET listado responde con la tabla
+  especialidades al iniciar: 5
+✓ GET búsqueda filtra por nombre
+✓ GET formulario de nueva especialidad
+✓ POST crear redirige (303/302) al listado
+✓ el listado muestra el mensaje de creación
+  id creado: 23
+✓ POST crear con nombre repetido muestra el error
+✓ GET editar trae los datos guardados
+✓ POST actualizar guarda la nueva descripción
+✓ POST eliminar una especialidad con médicos se rechaza
+✓ POST eliminar borra la especialidad de prueba
+✓ el listado volvió a 5 especialidades
+Resultado: 11 verificaciones aprobadas.
