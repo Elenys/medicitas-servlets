@@ -1,0 +1,4 @@
+# Copie este archivo como config/db.properties. Con el entorno Docker de MediCitas funciona tal cual.
+db.url=jdbc:postgresql://localhost:5432/medicitas
+db.usuario=medicitas
+db.clave=medicitas

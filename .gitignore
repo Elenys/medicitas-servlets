@@ -1,0 +1,5 @@
+config/db.properties
+build/
+target/
+*.class
+.DS_Store
