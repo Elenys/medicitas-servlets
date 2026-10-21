@@ -1,0 +1,5 @@
+<%-- Fragmento común: pie de página. La expresión JSP imprime el año actual. --%>
+</main>
+<footer class="pie">MediCitas · Sistema de gestión de citas médicas · SENA <%= java.time.Year.now() %></footer>
+</body>
+</html>

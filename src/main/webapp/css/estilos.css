@@ -1,0 +1,36 @@
+/* MediCitas · estilos del módulo de especialidades (colores del sistema de diseño del proyecto) */
+:root { --azul: #1565C0; --azul-claro: #E3F2FD; --verde: #2E7D32; --verde-claro: #E8F5E9; --rojo: #C62828;
+        --rojo-claro: #FFEBEE; --fondo: #F5F5F5; --borde: #E0E0E0; --texto: #333; --gris: #757575; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; color: var(--texto); background: var(--fondo); }
+.barra { display: flex; align-items: center; gap: 20px; padding: 14px 32px; background: #fff; border-bottom: 1px solid var(--borde); }
+.logo { font-size: 22px; font-weight: 700; color: var(--azul); text-decoration: none; }
+.seccion { color: var(--gris); }
+.contenido { max-width: 960px; margin: 0 auto; padding: 28px 24px 48px; }
+.encabezado { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+h1 { font-size: 26px; margin: 8px 0 20px; }
+.boton { display: inline-block; padding: 9px 16px; border-radius: 8px; border: 1px solid transparent; font: inherit;
+         font-weight: 600; font-size: 14px; text-decoration: none; cursor: pointer; }
+.primario { background: var(--azul); color: #fff; } .primario:hover { background: #0D47A1; }
+.secundario { background: #fff; color: var(--azul); border-color: var(--azul); }
+.peligro { background: var(--rojo); color: #fff; }
+.alerta { padding: 12px 16px; border-radius: 8px; border: 1px solid; }
+.exito { background: var(--verde-claro); border-color: var(--verde); color: #1B5E20; }
+.error { background: var(--rojo-claro); border-color: #E53935; color: #B71C1C; }
+.buscador { display: flex; gap: 10px; align-items: center; margin: 16px 0; flex-wrap: wrap; }
+.buscador input { flex: 1 1 260px; padding: 9px 12px; border: 1px solid var(--borde); border-radius: 8px; font: inherit; }
+.tabla { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid var(--borde); border-radius: 8px; overflow: hidden; }
+.tabla caption { text-align: left; color: var(--gris); padding: 8px 0; }
+.tabla th, .tabla td { padding: 12px 14px; border-top: 1px solid var(--borde); text-align: left; vertical-align: middle; }
+.tabla thead th { background: var(--fondo); font-size: 12px; text-transform: uppercase; color: var(--gris); }
+.acciones { display: flex; gap: 8px; } .acciones form { margin: 0; }
+.vacio { padding: 24px; background: #fff; border: 1px dashed var(--borde); border-radius: 8px; color: var(--gris); }
+.formulario { display: grid; gap: 8px; max-width: 560px; background: #fff; padding: 24px; border: 1px solid var(--borde); border-radius: 8px; }
+.formulario label { font-weight: 600; font-size: 14px; margin-top: 8px; }
+.formulario input, .formulario textarea { padding: 10px 12px; border: 1px solid var(--borde); border-radius: 8px; font: inherit; }
+.formulario input:focus, .formulario textarea:focus, .buscador input:focus { outline: 3px solid rgba(30,136,229,.35); border-color: #1E88E5; }
+.opcional { font-weight: 400; color: var(--gris); }
+.botones { display: flex; justify-content: flex-end; gap: 10px; margin-top: 12px; }
+.volver { color: var(--azul); font-weight: 600; text-decoration: none; }
+.oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.pie { text-align: center; color: var(--gris); font-size: 13px; padding: 20px; }
